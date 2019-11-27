@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.dileep.trickspy.MainActivity"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:background="@drawable/one"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Code Snippets"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/cs1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="15dp"
+                android:clickable="true"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="15dp"
+                android:textColor="#fff"
+                android:background="@drawable/border"
+                android:text="Basic Input/Output and Type Casting" />
+
+            <TextView
+                android:id="@+id/cs2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:clickable="true"
+                android:textColor="#fff"
+                android:text="Conditional and Looping" />
+            <TextView
+                android:id="@+id/cs3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingTop="15dp"
+                android:clickable="true"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="15dp"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:text="Data Structures" />
+            <TextView
+                android:id="@+id/cs4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:clickable="true"
+                android:textColor="#fff"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border"
+                android:text="Strings" />
+
+            <TextView
+                android:id="@+id/cs5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:clickable="true"
+                android:textColor="#fff"
+                android:paddingBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="Modules" />
+            <TextView
+                android:id="@+id/cs6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:clickable="true"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="15dp"
+                android:textColor="#fff"
+                android:background="@drawable/border"
+                android:gravity="center_horizontal"
+                android:text="Defining Pre defined functions" />
+            <TextView
+                android:id="@+id/cs7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingTop="15dp"
+                android:clickable="true"
+                android:textColor="#fff"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="Connecting and runnin vg SQL Queries to an oracle database from python" />
+            <TextView
+                android:id="@+id/cs8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingTop="15dp"
+                android:clickable="true"
+                android:textColor="#fff"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="MS ACTION connection using python" />
+
+            <TextView
+                android:id="@+id/cs9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:gravity="center_horizontal"
+                android:paddingBottom="15dp"
+                android:clickable="true"
+                android:textColor="#fff"
+                android:paddingTop="15dp"
+                android:text="Miscellaneous Programs" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.dileep.trickspy.MainActivity">
+        <android.support.v7.widget.Toolbar
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:minHeight="50dp"
+            app:titleTextColor="#fff"
+            android:id="@+id/toolbar"
+            app:popupTheme="@style/TextAppearance.AppCompat.Title"
+            />
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#fc9"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </RelativeLayout>-->
+
+    <!--<RelativeLayout
+        android:layout_width="408dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#fc0"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">-->
+
+<!--    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="about"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="382dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginStart="8dp"
+        android:text="Basic input/output and type casting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="50dp" />
+
+</android.support.constraint.ConstraintLayout>-->

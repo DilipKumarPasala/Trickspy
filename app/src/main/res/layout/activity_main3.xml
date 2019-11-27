@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/one"
+    tools:context="com.example.dileep.trickspy.Main3Activity">
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/ll1">
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="#fff"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="Basic Input/Output and TypeCasting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#fff"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:text="input()"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0." />
+        <TextView
+            android:id="@+id/ex1"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="38dp"
+            android:gravity="center_horizontal"
+            android:text="2.Taking the input as different formats\n(Data Types)"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.343" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:text="a=int(input())   #for int\nb=float(input()) #for float\nc=input()        #for char and string"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+        <TextView
+            android:id="@+id/ex2"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"/>
+
+
+        <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+            android:textColor="#fff"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="3. Displaying the output"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:text=" print('Trickspy')\n#OUTPUT: 'Trickspy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744" />
+        <TextView
+            android:id="@+id/ex3"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"/>
+
+
+        <TextView
+        android:id="@+id/tv7" android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="4. Printing with format"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874" />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:text=" print('Hey {name},there is\n {one} website.'.\nformat(name='Users',one='Trickspy'))"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+        <TextView
+            android:id="@+id/ex4"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"/>
+
+
+
+
+        <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+            android:textColor="#fff"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="5. Using a '_' as a variable in REPL shell"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.094" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:text=" >>> 23 + 3\n23\n>>> _\n23\n>>> print(_)\n23"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.374" />
+        <TextView
+            android:id="@+id/ex5"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"/>
+
+
+        <TextView
+            android:id="@+id/tv11"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="6. Converting number to string"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.216"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.594" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text=" a=10\nprint(str(a))\n#OUTPUT: '10'"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.674" />
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ex6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"/>
+
+
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv13"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="7. Converting Decimal number to binary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.216"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.794" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text=" a=10\nprint(str(a))\n#OUTPUT: '10'"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.874" />
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ex7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"
+            android:paddingBottom="20dp"/>
+
+
+
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv15"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="8. Converting Decimal number to Octa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.216"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.994" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text=" a=10\n print(oct(a)) \n#OUTPUT: '0o12'"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2.074" />
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ex8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"
+            android:paddingBottom="20dp"/>
+
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv17"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="9. Converting Decimal number to Hexa Decimal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.216"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2.194" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text=" a=10\n print(hex(a))    #OUTPUT: '0xa'"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2.274" />
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ex9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv19"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="10. Declaring multiple variables\nand assigning values to them"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.216"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2.394" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text="a,b,c=10,20,30\nprint(a,b,c,sep=' ')\n#OUTPUT:10   20   30"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2.474" />
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ex10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv21"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="11. PROGRAM:Swapping of two numbers\n in just three lines"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.216"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2.594" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text=" a,b=10,20\na,b=b,a\nprint(a,b)\n#OUTPUT: 20 10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2.674" />
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ex11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"/>
+
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv23"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="12. PROGRAM:To display the Decimal \nBinary Octa and Hexa Decimal numbers"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.216"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2.774" />
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/tv24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:text=" d,o,h,bi=[],[],[],[]\n
+      for i in range(n):\n
+            d.append(i+1)\n
+            a=oct(i+1)\n
+            o.append(int(a[2:]))\n
+            b=hex(i+1)\n
+            h.append(b[2:])\n
+            c=bin(i+1)\n
+            bi.append(int(c[2:]))\n
+        for j in range(n):\n
+           if h[j].isdigit():\n
+               h[j]=int(h[j])\n
+           elif h[j].isalpha():\n
+                h[j]=h[j].upper()\n
+        for i in range(n):\n
+            print(d[i],o[i],h[i],bi[i])"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2.994" />
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ex12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:paddingLeft="25dp"
+            android:paddingBottom="20dp"/>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
